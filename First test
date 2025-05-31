@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+int main() {
+
+	int idade;
+	string senha = "Eduardo";
+
+	cin >> idade;
+	cin >> senha;
+	if (idade >= 18 && senha == "Eduardo") {
+		cout << "Welcome to my code";
+	}
+	else {
+		cout << "Go away";
+	}
+
+	return 0;
+}
